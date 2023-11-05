@@ -12,15 +12,15 @@ let galleryItems = [
         description: "A picturesque cornfield adorned with red poppies in Dülmen, North Rhine-Westphalia, Germany.",
     },
     {
-        large: 'images/flowers-pink-large.jpg',
+        large: 'images/flowers-red-large.jpg',
         description: "A field of vibrant sunflowers in the hamlet of Dernekamp, Kirchspiel, Dülmen, Germany.",
     },
     {
-        large: 'images/flowers-purple-large.jpg',
+        large: 'images/flowers-white-large.jpg',
         description: "A picturesque cornfield adorned with red poppies in Dülmen, North Rhine-Westphalia, Germany.",
     },
     {
-        large: 'images/flowers-purple-large.jpg',
+        large: 'images/flowers-yellow-large.jpg',
         description: "A picturesque cornfield adorned with red poppies in Dülmen, North Rhine-Westphalia, Germany.",
     },
     // Add objects for other images
