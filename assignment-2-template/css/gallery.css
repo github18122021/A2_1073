@@ -2,7 +2,25 @@
   filter: grayscale(70%);
 }
 
+h1 {
+  text-align: center;
+}
+
+figure {
+  /* background-color: yellow; */
+}
+
+figure > img {
+  display: block;
+  margin: 0 auto;
+}
+
+figure > figcaption {
+  font-size: 2rem;
+  text-align: center;
+}
+
 ul {
   display: flex;
-  gap: 10px;
+  justify-content: space-around;
 }
