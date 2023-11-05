@@ -6,10 +6,6 @@ h1 {
   text-align: center;
 }
 
-figure {
-  /* background-color: yellow; */
-}
-
 figure > img {
   display: block;
   margin: 0 auto;
