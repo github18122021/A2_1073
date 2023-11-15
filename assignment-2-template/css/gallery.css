@@ -1,22 +1,83 @@
-.grayscale {
-  filter: grayscale(70%);
+/* Reset some default styles */
+body, figure, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
 }
 
 h1 {
+  text-align: center;
+  color: #4CAF50;
+  margin-top: 20px;
+}
+
+#gallery {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+figure {
   text-align: center;
 }
 
 figure > img {
   display: block;
   margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  border: 5px solid #fff; /* Add border for a clean look */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-figure > figcaption {
-  font-size: 2rem;
-  text-align: center;
+figcaption {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  color: #777;
 }
 
 ul {
+  list-style: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  margin-top: 20px;
 }
+
+li {
+  margin: 0 10px;
+}
+
+li > img {
+  width: 100%;
+  height: auto;
+  border: 5px solid #fff; /* Add border for a clean look */
+  transition: transform 0.3s ease-in-out;
+}
+
+li > img:hover {
+  transform: scale(1.1); /* Add a slight scale effect on hover */
+}
+
+.grayscale {
+  filter: grayscale(70%);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  li {
+    margin: 10px 0;
+  }
+}
+
